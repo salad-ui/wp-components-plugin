@@ -1,10 +1,10 @@
 const {createElement: h, Fragment} = wp.element;
-const {Theme, Button} = saladui;
+const {Theme, Title, Button} = saladui;
 
 wp.element.render(
   // h(Theme, {chidlren: 
     h(Fragment, {children: [
-      h('h1', {children: 'World'}),
+      h(Title, {size: 'large', children: 'World'}),
       // h(Button, {variant: 'primary', children: 'Click Me!'})
     ]})
   // }),  

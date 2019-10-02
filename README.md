@@ -1,6 +1,8 @@
 # 🥗 salad-ui: wp-components-plugin
 
-A WordPress plugin that bundles `salad-ui` components as a UMD.
+> ⚠️ This project is an experimental proof-of-concept. Please don't use it it productio
+
+A WordPress plugin bundling the `salad-ui` components as a UMD build for use with `@wordpress/element`.
 
 ## Development
 
